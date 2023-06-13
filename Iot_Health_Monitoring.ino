@@ -1,7 +1,10 @@
 #include <LiquidCrystal.h>
 #include <SoftwareSerial.h>
-String network_name = "Wifi_Name";
-String network_pswrd= "Wifi_pswrd";
+wifi_name = " "
+wifi_pswrd = " "
+# At Line 96 change the your_api_key part with the API key from ThingSpeak
+String network_name = wifi_name;
+String network_pswrd= wifi_pswrd;
 int rx_pin = 9;
 int tx_pin = 10;
 String ip ="184.106.153.149";
